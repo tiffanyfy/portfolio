@@ -1,5 +1,13 @@
-/* Styles the buttons that are used to open and close the accordion panel */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,900");
+body {
+  margin: 0 auto;
+}
+
+.site-wrapper {
+  padding: 0 1em;
+}
+
+/* Styles the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
   color: #444;
