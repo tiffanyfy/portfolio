@@ -531,7 +531,7 @@ body {
 }
 
 .container {
-  background: #0A2463;
+  background: #874f3e;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -551,7 +551,7 @@ body {
 }
 
 .shape-blob {
-  background: #ED1250;
+  background: #faa996;
   height: 200px;
   width: 200px;
   border-radius: 30% 50% 20% 40%;
