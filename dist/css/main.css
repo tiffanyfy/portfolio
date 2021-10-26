@@ -345,12 +345,57 @@ template {
 /* Font Variables */
 /* Color Variables */
 /* Responsive Breakpoints */
-body {
-  margin: 0 auto;
+html {
+  scroll-behavior: smooth;
 }
 
-.site-wrapper {
-  padding: 0 1em;
+body {
+  margin: 0 auto;
+  background-color: #f5f0ed;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  margin: 2.5rem 0;
+}
+
+article {
+  padding: 2rem;
+  margin: 1rem auto;
+  background-color: white;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  /* animation */
+}
+
+article:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  /* (1.1=110% zoom - if the zoom is too large, it will go outside of the viewport) */
 }
 
 .site-wrapper {
