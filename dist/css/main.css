@@ -404,6 +404,34 @@ article:hover {
   margin: 0 auto;
 }
 
+nav ul {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  nav ul li {
+    padding: 0 1rem;
+  }
+}
+
 /* Styles the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
