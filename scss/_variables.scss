@@ -1,0 +1,26 @@
+/* Font Variables */
+$heading-font: 'Cabin', sans-serif;
+$body-font: 'Raleway', sans-serif;
+
+$font-weight: (
+    light: 300,
+    regular: 400,
+    bold: 700
+);
+
+/* Color Variables */
+// $pink: #ffd2c5;
+$pink: #faa996;
+$white: #f5f0ed;
+$orange: #d16f56;
+$rose: #d0826c;
+$sage: #bbb8a5;
+$burgundy: #874f3e;
+
+/* Responsive Breakpoints */
+$breakpoint: (
+    mobile: 480px,
+    tablet: 768px,
+    laptop: 1024px,
+    desktop: 1200px
+);
