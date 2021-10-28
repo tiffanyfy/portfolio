@@ -1,11 +1,24 @@
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
+    height: 100%;
     margin: 0 auto;
     background-color: $white;
     font-family: 'Raleway', sans-serif;
+}
+
+.parallax {
+    /* Placeholder background image */
+    background-image: url(../bg-1.jpeg);
+    height: 100%;
+    /* Creates the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1,
@@ -41,7 +54,7 @@ article {
     border-radius: 20px;
     transition: transform .2s; /* animation */
     
-    &:hover {
-        transform: scale(1.1); /* (1.1=110% zoom - if the zoom is too large, it will go outside of the viewport) */
-    }
+    // &:hover {
+    //     transform: scale(1.1); /* (1.1=110% zoom - if the zoom is too large, it will go outside of the viewport) */
+    // }
 }
