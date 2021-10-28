@@ -484,7 +484,7 @@ footer .social-links a {
 
 /* Styles the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
+  background-color: transparent;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -504,7 +504,7 @@ footer .social-links a {
 /* Styles the accordion panel (hidden by default) */
 .panel {
   padding: 0 18px;
-  background-color: white;
+  background-color: transparent;
   max-height: 0;
   overflow: hidden;
   -webkit-transition: max-height 0.2s ease-out;
