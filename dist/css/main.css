@@ -489,7 +489,8 @@ body {
 footer {
   background-color: #874f3e;
   color: white;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem 3.125rem;
+  /* last value matches height of fixed header in mobile mode */
   margin: 0 auto;
 }
 
