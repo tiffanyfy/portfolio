@@ -411,31 +411,78 @@ article {
   margin: 0 auto;
 }
 
-nav ul {
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-nav ul li {
-  list-style: none;
+body {
+  margin: 0 0 55px 0;
+  /* value must be the same */
 }
 
 @media (min-width: 768px) {
-  nav ul {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+  body {
+    margin: 0;
   }
-  nav ul li {
-    padding: 0 1rem;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  /* value must be the same */
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  /* extends compatibility/support for smaller screens, so user can scroll if they need to */
+  z-index: 5;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    top: 0;
+  }
+}
+
+.nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  /* navigation links are going to try to take up an even amount of space */
+  min-width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0.8125rem;
+  -webkit-tap-highlight-color: transparent;
+  /* removes the default blue highlight when links clicked on mobile device */
+  -webkit-transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.nav__link:hover {
+  background-color: lightgray;
+}
+
+@media (min-width: 768px) {
+  .nav__link {
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    min-width: 0;
+    margin: 0 1rem;
   }
 }
 
