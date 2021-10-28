@@ -1,7 +1,6 @@
 @import "normalize";
 @import "variables";
 @import "mixins";
-@import "screen-reader-text";
 @import "body";
 @import "wrapper";
 @import "header";
@@ -9,3 +8,5 @@
 @import "accordion";
 @import "banner";
 @import "color-palettes";
+@import "screen-reader-text";
+@import "scroll-animation";
