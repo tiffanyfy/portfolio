@@ -39,13 +39,22 @@ article {
     margin: 1rem auto;
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px;
     transition: transform .2s; /* animation */
     max-width: 500px; /* might need to change value */
     
-    &:hover {
-        transform: scale(1.1); /* (1.1=110% zoom - if the zoom is too large, it will go outside of the viewport) */
+    // &:hover {
+    //     transform: scale(1.1); /* (1.1=110% zoom - if the zoom is too large, it will go outside of the viewport) */
+    // }
+
+    h3,
+    p {
+        text-align: center;
+    }
+
+    a {
+        display: block;
+        text-align: center;
     }
 }
 
@@ -56,7 +65,7 @@ img {
 
 .parallax {
     /* Placeholder background image */
-    background-image: url(../bg-1.jpeg);
+    // background-image: url(../bg-1.jpeg);
     height: 100%;
     /* Creates the parallax scrolling effect */
     background-attachment: fixed;

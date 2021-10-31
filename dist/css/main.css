@@ -396,10 +396,14 @@ article {
   /* might need to change value */
 }
 
-article:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  /* (1.1=110% zoom - if the zoom is too large, it will go outside of the viewport) */
+article h3,
+article p {
+  text-align: center;
+}
+
+article a {
+  display: block;
+  text-align: center;
 }
 
 img {
