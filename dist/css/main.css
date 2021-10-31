@@ -429,6 +429,14 @@ img {
   background-size: cover;
 }
 
+#projects-section-description {
+  padding: 1rem;
+}
+
+#projects-section-description h2 {
+  text-align: center;
+}
+
 #about-section {
   padding: 1rem;
 }
