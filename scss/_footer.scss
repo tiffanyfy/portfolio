@@ -1,7 +1,8 @@
 footer {
-    background-color: $burgundy;
+    // background-color: $burgundy;
+    background-color: grey;
     color: white;
-    padding: 1rem 1.5rem 3.125rem; /* last value matches height of fixed header in mobile mode */
+    padding: 1rem 1.5rem 4.125rem; /* last value matches height of fixed header in mobile mode */
     margin: 0 auto;
 
     .social-links {
@@ -11,5 +12,11 @@ footer {
             margin-right: 0.5rem;
             fill: white;
         }   
+    }
+}
+
+@media (min-width: map-get($breakpoint, tablet)) {
+    footer {
+        padding: 1rem 1.5rem;
     }
 }
