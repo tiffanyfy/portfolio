@@ -411,7 +411,6 @@ img {
 
 .parallax {
   /* Placeholder background image */
-  background-image: url(../bg-1.jpeg);
   height: 100%;
   /* Creates the parallax scrolling effect */
   background-attachment: fixed;
