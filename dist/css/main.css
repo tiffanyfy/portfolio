@@ -402,14 +402,14 @@ article p {
 }
 
 article a {
-  width: 6rem;
   padding: 0.5rem 1rem;
-  margin: 0 auto;
   display: block;
   background-color: grey;
   border-radius: 20px;
   color: white;
   text-align: center;
+  width: 6rem;
+  margin: 0 auto;
 }
 
 img {
@@ -438,14 +438,14 @@ img {
 }
 
 #about-section a {
-  width: 8rem;
   padding: 0.5rem 1rem;
-  margin: 1.5rem auto 0;
   display: block;
   background-color: grey;
   border-radius: 20px;
   color: white;
   text-align: center;
+  width: 8rem;
+  margin: 1.5rem auto 0;
 }
 
 .site-wrapper {
