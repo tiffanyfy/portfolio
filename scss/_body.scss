@@ -10,17 +10,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.parallax {
-    /* Placeholder background image */
-    background-image: url(../bg-1.jpeg);
-    height: 100%;
-    /* Creates the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 h1,
 h2,
 h3,
@@ -58,4 +47,20 @@ article {
     &:hover {
         transform: scale(1.1); /* (1.1=110% zoom - if the zoom is too large, it will go outside of the viewport) */
     }
+}
+
+img {
+    margin: 0 auto;
+    display: flex;
+}
+
+.parallax {
+    /* Placeholder background image */
+    background-image: url(../bg-1.jpeg);
+    height: 100%;
+    /* Creates the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
