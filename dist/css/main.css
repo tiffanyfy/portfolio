@@ -419,6 +419,12 @@ article:hover {
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .site-wrapper {
+    padding: 0 2.5rem;
+  }
+}
+
 body {
   margin: 0 0 55px 0;
   /* value must be the same */
@@ -498,9 +504,9 @@ body {
 }
 
 footer {
-  background-color: #874f3e;
+  background-color: grey;
   color: white;
-  padding: 1rem 1.5rem 3.125rem;
+  padding: 1rem 1.5rem 4.125rem;
   /* last value matches height of fixed header in mobile mode */
   margin: 0 auto;
 }
@@ -512,6 +518,12 @@ footer .social-links {
 footer .social-links a {
   margin-right: 0.5rem;
   fill: white;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 1rem 1.5rem;
+  }
 }
 
 /* Styles the buttons that are used to open and close the accordion panel */
