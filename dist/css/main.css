@@ -393,7 +393,7 @@ article {
   transition: transform .2s, -webkit-transform .2s;
   /* animation */
   max-width: 500px;
-  /* might need to change value */
+  /* adjust value */
 }
 
 article h3,
@@ -454,6 +454,36 @@ img {
   text-align: center;
   width: 8rem;
   margin: 1.5rem auto 0;
+}
+
+.external-links {
+  max-width: 200px;
+  /* adjust value */
+  padding: 0.75rem;
+  margin: 0.5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: grey;
+  color: white;
+  border-radius: 20px;
+}
+
+@media (min-width: 550px) {
+  .external-links-section {
+    width: 500px;
+    /* adjust value */
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .external-links {
+    width: 100%;
+  }
 }
 
 .site-wrapper {
