@@ -126,3 +126,14 @@ img {
         width: 100%;
     }
 }
+
+.back-to-projects {
+    max-width: 200px; /* adjust value */
+    padding: 0.75rem;
+    margin: 0.5rem auto 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+}
