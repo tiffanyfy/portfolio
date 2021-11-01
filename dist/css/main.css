@@ -474,7 +474,7 @@ img {
 
 @media (min-width: 550px) {
   .external-links-section {
-    width: 500px;
+    max-width: 500px;
     /* adjust value */
     margin: 0 auto;
     display: -webkit-box;
