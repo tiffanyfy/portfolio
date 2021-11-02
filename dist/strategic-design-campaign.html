@@ -32,28 +32,38 @@
 
     <div class="site-wrapper">
 
-        <main>
-            <!-- image -->
-            <h2>Strategic Design Campaign</h2>
-
-            <h3>Project Overview</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quos molestias maiores adipisci commodi officiis, illum veritatis voluptatibus impedit enim atque repudiandae explicabo voluptas incidunt vitae id cupiditate nam nesciunt. Nemo assumenda vel natus odio, deleniti optio perspiciatis aliquid ex, consectetur quidem ducimus. Fugit expedita eius cumque animi quisquam obcaecati.</p>
+        <main class="individual-project">
             
-            <h3>Tools Used</h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        
-            <h3>Role(s)</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-        
-            <div class="external-links">
-                <a href="#">External Link</a>
-            </div>
+            <picture class="individual-hero">
+                <source media="(max-width: 480px)" srcset="images/320-240.jpg">
+                <source media="(max-width: 768px)" srcset="images/640-480.jpg">
+                <img src="images/1024-768.jpg" alt="Placeholder image">
+            </picture>
 
-            <section>
+            <section class="project-details">
+
+                <h2>Strategic Design Campaign</h2>
+
+                <h3>Project Overview</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quos molestias maiores adipisci commodi officiis, illum veritatis voluptatibus impedit enim atque repudiandae explicabo voluptas incidunt vitae id cupiditate nam nesciunt. Nemo assumenda vel natus odio, deleniti optio perspiciatis aliquid ex, consectetur quidem ducimus. Fugit expedita eius cumque animi quisquam obcaecati.</p>
+                
+                <h3>Tools Used</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            
+                <h3>Role(s)</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            
+                <div class="external-links">
+                    <a href="#">External Link</a>
+                </div>
+
+            </section>
+
+            <section class="project-accordion">
                 <button class="accordion">Planning</button>
                 <div class="panel">
                     <p>Lorem ipsum...</p>
@@ -73,9 +83,10 @@
                 <div class="panel">
                     <p>Lorem ipsum...</p>
                 </div>
-            </section>
 
-            <a href="index.html#projects-section" class="back-to-projects">Back To Projects</a>
+                <a href="index.html#projects-section" class="back-to-projects">Back To Projects</a>
+
+            </section>
 
         </main>
 

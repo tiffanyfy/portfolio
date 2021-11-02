@@ -32,29 +32,39 @@
 
     <div class="site-wrapper">
 
-        <main>
-            <!-- image -->
-            <h2>Movie Database Web Application</h2>
-
-            <h3>Project Overview</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptate laboriosam soluta vel animi aspernatur consectetur officia optio sint harum libero, perspiciatis id, rem in excepturi quasi? Quia consequatur qui et natus temporibus accusamus praesentium nisi placeat sapiente porro incidunt eos inventore, minus suscipit sequi explicabo unde. Accusamus, error unde.</p>
+        <main class="individual-project">
+        
+            <picture class="individual-hero">
+                <source media="(max-width: 480px)" srcset="images/320-240.jpg">
+                <source media="(max-width: 768px)" srcset="images/640-480.jpg">
+                <img src="images/1024-768.jpg" alt="Placeholder image">
+            </picture>
             
-            <h3>Tools Used</h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        
-            <h3>Role(s)</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-        
-            <div class="external-links">
-                <a href="#">GitHub Repo</a>
-                <a href="#">Live Site</a>
-            </div>
+            <section class="project-details">
+                <h2>Movie Database Web Application</h2>
 
-            <section>
+                <h3>Project Overview</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptate laboriosam soluta vel animi aspernatur consectetur officia optio sint harum libero, perspiciatis id, rem in excepturi quasi? Quia consequatur qui et natus temporibus accusamus praesentium nisi placeat sapiente porro incidunt eos inventore, minus suscipit sequi explicabo unde. Accusamus, error unde.</p>
+                
+                <h3>Tools Used</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            
+                <h3>Role(s)</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            
+                <div class="external-links">
+                    <a href="#">GitHub Repo</a>
+                    <a href="#">Live Site</a>
+                </div>
+
+            </section>
+
+            <section class="project-accordion
+            ">
                 <button class="accordion">Planning</button>
                 <div class="panel">
                     <p>Lorem ipsum...</p>
@@ -79,9 +89,10 @@
                 <div class="panel">
                     <p>Lorem ipsum...</p>
                 </div>
-            </section>
 
-            <a href="index.html#projects-section" class="back-to-projects">Back To Projects</a>
+                <a href="index.html#projects-section" class="back-to-projects">Back To Projects</a>
+
+            </section>
 
         </main>
 
