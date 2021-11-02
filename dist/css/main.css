@@ -458,101 +458,6 @@ img {
   margin: 1.5rem auto 0;
 }
 
-.external-links a {
-  max-width: 200px;
-  /* adjust value */
-  padding: 0.75rem;
-  margin: 0.5rem auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: grey;
-  color: white;
-  border-radius: 20px;
-}
-
-@media (min-width: 550px) {
-  .external-links {
-    max-width: 500px;
-    /* adjust value */
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .external-links a {
-    width: 100%;
-  }
-}
-
-.back-to-projects {
-  max-width: 200px;
-  /* adjust value */
-  padding: 0.75rem;
-  margin: 0.5rem auto 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: grey;
-  color: white;
-  border-radius: 20px;
-}
-
-@media (min-width: 1024px) {
-  .individual-project {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -webkit-column-gap: 2rem;
-            column-gap: 2rem;
-  }
-  .individual-hero {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1/2;
-  }
-  .project-details {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-  }
-  .project-accordion {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2/3;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-  }
-  .projects-button {
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    grid-row: 3/4;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-  }
-}
-
-.individual-hero img {
-  width: 100%;
-}
-
 .site-wrapper {
   max-width: 768px;
   padding: 0 1.5rem;
@@ -659,6 +564,105 @@ footer .social-links a {
   footer {
     padding: 1rem 1.5rem;
   }
+}
+
+/* Styles for individual project pages */
+@media (min-width: 1024px) {
+  .individual-project {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2rem;
+            column-gap: 2rem;
+  }
+  .individual-hero {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+  .project-details {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .project-accordion {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .projects-button {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+}
+
+/* Hero/page banner images */
+.individual-hero img {
+  width: 100%;
+}
+
+/* External links (e.g. GitHub, live demo) */
+.external-links a {
+  max-width: 200px;
+  /* adjust value */
+  padding: 0.75rem;
+  margin: 0.5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: grey;
+  color: white;
+  border-radius: 20px;
+}
+
+@media (min-width: 550px) {
+  .external-links {
+    max-width: 500px;
+    /* adjust value */
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .external-links a {
+    width: 100%;
+  }
+}
+
+/* Back to projects CTA button */
+.back-to-projects {
+  max-width: 200px;
+  /* adjust value */
+  padding: 0.75rem;
+  margin: 0.5rem auto 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: grey;
+  color: white;
+  border-radius: 20px;
 }
 
 /* Styles the buttons that are used to open and close the accordion panel */
