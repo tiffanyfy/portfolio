@@ -413,8 +413,6 @@ article a {
 }
 
 img {
-  width: 100%;
-  /* test after replacing placeholder images */
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
