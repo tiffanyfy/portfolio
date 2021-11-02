@@ -8,6 +8,12 @@
 //     }
 // }
 
+@media (min-width: map-get($breakpoint, tablet)) {
+    header {
+        margin-bottom: 80px; /* to account for the header height */
+    }
+}
+
 nav {
     position: fixed;
     bottom: 0;

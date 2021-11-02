@@ -514,6 +514,13 @@ img {
   }
 }
 
+@media (min-width: 768px) {
+  header {
+    margin-bottom: 80px;
+    /* to account for the header height */
+  }
+}
+
 nav {
   position: fixed;
   bottom: 0;
