@@ -32,29 +32,41 @@
     
     <div class="site-wrapper">
 
-        <main>
-            <!-- image -->
-            <h2>Portfolio Website</h2>
+        <main class="individual-project">
+            <picture class="individual-hero">
+                <source media="(max-width: 480px)" srcset="images/320-240.jpg">
+                <source media="(max-width: 768px)" srcset="images/640-480.jpg">
+                <img src="images/1024-768.jpg" alt="Placeholder image">
+                <!-- <source media="(max-width: 480px)" srcset="images/192.jpg">
+                <source media="(min-width: 481px)" srcset="images/320-240.jpg"> -->
+                <!-- <img src="images/192.jpg" alt="Placeholder image"> -->
+            </picture>
 
-            <h3>Project Overview</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit aliquam temporibus consectetur beatae vero repellendus voluptates nam maxime perferendis. Illum, corrupti, in ratione deserunt iste culpa modi necessitatibus, laborum tenetur nihil aperiam qui aspernatur sed blanditiis accusantium quos sint quae id earum? Impedit eos magnam omnis iusto illo odit.</p>
-            
-            <h3>Tools Used</h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        
-            <h3>Role(s)</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-        
-            <div class="external-links">
-                <a href="#">GitHub Repo</a>
-                <a href="#">Live Site</a>
-            </div>
+            <section class="project-details">
+                <h2>Portfolio Website</h2>
 
-            <section>
+                <h3>Project Overview</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reprehenderit aliquam temporibus consectetur beatae vero repellendus voluptates nam maxime perferendis. Illum, corrupti, in ratione deserunt iste culpa modi necessitatibus, laborum tenetur nihil aperiam qui aspernatur sed blanditiis accusantium quos sint quae id earum? Impedit eos magnam omnis iusto illo odit.</p>
+                
+                <h3>Tools Used</h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+                <h3>Role(s)</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+
+                <div class="external-links">
+                    <a href="#">GitHub Repo</a>
+                    <a href="#">Live Site</a>
+                </div>
+
+            </section>
+
+            <section class="project-accordion">
+                
                 <button class="accordion">Planning</button>
                 <div class="panel">
                     <p>Lorem ipsum...</p>
@@ -74,9 +86,10 @@
                 <div class="panel">
                     <p>Lorem ipsum...</p>
                 </div>
-            </section>
 
-            <a href="index.html#projects-section" class="back-to-projects">Back To Projects</a>
+                <a href="index.html#projects-section" class="back-to-projects">Back To Projects</a>
+
+            </section>
 
         </main>
 
