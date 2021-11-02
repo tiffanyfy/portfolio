@@ -517,7 +517,7 @@ nav {
   min-width: 50px;
   overflow: hidden;
   white-space: nowrap;
-  font-size: 0.8125rem;
+  font-size: 1rem;
   -webkit-tap-highlight-color: transparent;
   /* removes the default blue highlight when links clicked on mobile device */
   -webkit-transition: background-color 0.1s ease-in-out;
@@ -537,7 +537,7 @@ nav {
         -ms-flex-positive: 0;
             flex-grow: 0;
     min-width: 0;
-    margin: 0 1rem;
+    padding: 0 1.5rem;
   }
 }
 
