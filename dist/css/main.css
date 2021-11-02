@@ -503,7 +503,7 @@ img {
 }
 
 .site-wrapper {
-  max-width: 1200px;
+  max-width: 768px;
   padding: 0 1.5rem;
   margin: 0 auto;
 }
@@ -511,6 +511,12 @@ img {
 @media (min-width: 768px) {
   .site-wrapper {
     padding: 0 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-wrapper {
+    max-width: none;
   }
 }
 

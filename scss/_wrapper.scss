@@ -1,5 +1,5 @@
 .site-wrapper {
-    max-width: map-get($breakpoint, desktop);
+    max-width: map-get($breakpoint, tablet);
     padding: 0 1.5rem;
     margin: 0 auto;
 }
@@ -7,5 +7,11 @@
 @media (min-width: map-get($breakpoint, tablet)) {
     .site-wrapper {
         padding: 0 2.5rem;
+    }
+}
+
+@media (min-width: map-get($breakpoint, laptop)) {
+    .site-wrapper {
+        max-width: none;
     }
 }
