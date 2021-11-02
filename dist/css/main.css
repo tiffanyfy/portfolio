@@ -456,7 +456,7 @@ img {
   margin: 1.5rem auto 0;
 }
 
-.external-links {
+.external-links a {
   max-width: 200px;
   /* adjust value */
   padding: 0.75rem;
@@ -473,7 +473,7 @@ img {
 }
 
 @media (min-width: 550px) {
-  .external-links-section {
+  .external-links {
     max-width: 500px;
     /* adjust value */
     margin: 0 auto;
@@ -481,7 +481,7 @@ img {
     display: -ms-flexbox;
     display: flex;
   }
-  .external-links {
+  .external-links a {
     width: 100%;
   }
 }

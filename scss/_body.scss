@@ -100,30 +100,27 @@ img {
 }
 
 .external-links {
-    // @include more-button;
-    // max-width: 200px; /* adjust value */
-    // padding: 0.75rem;
-    // margin: 0.5rem 0;
-
-    max-width: 200px; /* adjust value */
-    padding: 0.75rem;
-    margin: 0.5rem auto;
-    display: flex;
-    justify-content: center;
-    background-color: grey;
-    color: white;
-    border-radius: 20px;
+    a {
+        max-width: 200px; /* adjust value */
+        padding: 0.75rem;
+        margin: 0.5rem auto;
+        display: flex;
+        justify-content: center;
+        background-color: grey;
+        color: white;
+        border-radius: 20px;
+    }
 }
 
 @media (min-width: 550px) {
-    .external-links-section {
+    .external-links {
         max-width: 500px; /* adjust value */
         margin: 0 auto;
         display: flex;
-    }
 
-    .external-links {
-        width: 100%;
+        a {
+            width: 100%;
+        }
     }
 }
 
