@@ -514,23 +514,12 @@ img {
   }
 }
 
-body {
-  margin: 0 0 55px 0;
-  /* value must be the same */
-}
-
-@media (min-width: 768px) {
-  body {
-    margin: 0;
-  }
-}
-
-.nav {
+nav {
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 55px;
-  /* value must be the same */
+  /* value must be the same as body bottom margin */
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   background-color: white;
@@ -543,7 +532,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  .nav {
+  nav {
     top: 0;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
@@ -595,7 +584,7 @@ body {
 footer {
   background-color: grey;
   color: white;
-  padding: 1rem 1.5rem 4.125rem;
+  padding: 1rem 1.5rem 3.4375rem;
   /* last value matches height of fixed header in mobile mode */
   margin: 0 auto;
 }
@@ -656,11 +645,6 @@ footer .social-links a {
 .active:after {
   content: "\2796";
   /* Unicode character for "-" sign */
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
 
 .container {
