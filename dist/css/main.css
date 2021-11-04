@@ -718,7 +718,7 @@ footer .social-links a {
 }
 
 .container {
-  background: #874f3e;
+  background: #132838;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -738,7 +738,7 @@ footer .social-links a {
 }
 
 .shape-blob {
-  background: #faa996;
+  background: #f7bbb0;
   height: 200px;
   width: 200px;
   border-radius: 30% 50% 20% 40%;
