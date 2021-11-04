@@ -13,6 +13,6 @@
 /* Site wrapper on individual project pages */
 @media (min-width: map-get($breakpoint, laptop)) {
     .individual-wrapper {
-        max-width: none;
+        max-width: 1400px; /* might need to change value */
     }
 }

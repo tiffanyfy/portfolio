@@ -471,7 +471,8 @@ img {
 /* Site wrapper on individual project pages */
 @media (min-width: 1024px) {
   .individual-wrapper {
-    max-width: none;
+    max-width: 1400px;
+    /* might need to change value */
   }
 }
 
