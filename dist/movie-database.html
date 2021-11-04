@@ -9,22 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="scripts/index.js" defer></script>
-    <title>Document</title>
+    <title>Movie Club | Movie Database Web Application</title>
 </head>
 <body>
     
     <header>
         <nav>
             <a href="index.html" class="nav__link">
-                <!-- <span class="material-icons nav__icon">home</span> -->
                 <span class="nav__text">Home</span>
             </a>
             <a href="index.html#projects-section" class="nav__link">
-                <!-- <span class="material-icons nav__icon">work</span> -->
                 <span class="nav__text">Projects</span>
             </a>
             <a href="index.html#about-section" class="nav__link">
-                <!-- <span class="material-icons nav__icon">info</span> -->
                 <span class="nav__text">About</span>
             </a>
         </nav>
@@ -35,17 +32,19 @@
         <main class="individual-project">
         
             <picture class="individual-hero">
-                <source media="(max-width: 480px)" srcset="images/640-480.jpg">
-                <source media="(max-width: 1024px)" srcset="images/1024-768.jpg">
-                <img src="images/640-480.jpg" alt="Placeholder image">
+                <source media="(max-width: 480px)" srcset="images/movie-database-640.png">
+                <!-- <source media="(max-width: 1024px)" srcset="images/movie-database-1024.png"> -->
+                <source media="(max-width: 1199px)" srcset="images/movie-database-1024.png">
+                <img src="images/movie-database-640.png" alt="Placeholder image">
             </picture>
             
             <section class="project-details">
                 <h2>Movie Database Web Application</h2>
 
                 <h3>Project Overview</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptate laboriosam soluta vel animi aspernatur consectetur officia optio sint harum libero, perspiciatis id, rem in excepturi quasi? Quia consequatur qui et natus temporibus accusamus praesentium nisi placeat sapiente porro incidunt eos inventore, minus suscipit sequi explicabo unde. Accusamus, error unde.</p>
-                
+                <p>Movie Club is a dynamic movie database application that lets users browse movies based on popularity, rating, and release date with page-based navigation. The platform also allows registered users to keep track of movies they love by adding films to their favorites list using a bookmarking function.</p>
+                <p>The objective for this project was to first create a visually engaging user interface for a dynamic movie web application by crafting responsive graphic elements, assets, and visual treatments.</p>
+
                 <h3>Tools Used</h3>
                 <ul>
                     <li></li>
@@ -72,17 +71,29 @@
 
                 <button class="accordion">Design</button>
                 <div class="panel">
+                    <p>I based my design around the intention of using CSS grid for the layout focal point. I wanted to effectively design an application that was both responsive to the device it was being viewed on and visually appealing without being crowded or overwhelming to look at, as I knew the application was going to be relatively image-heavy.</p>
+                    <p>The dark grey color choice was inspired by the feeling of sitting in a dark movie theater. Not only does using a dark color scheme bring a stylish element to the design, but using a dark interface also allows the visual content to stand out, which was an essential part of this design. Additionally, from a user experience point of view, I considered the fact that the application would likely be viewed in a dimly lit environment. The color red was paired with the dark grey for a contrasting and visually striking combination.</p>
+
                     <h4>Color Palette</h4>
                     <div class="color-container">
                         <div class="color movie-1"><p>#DB3A34</p></div>
                         <div class="color movie-2"><p>#434343</p> </div>
                         <div class="color movie-3"><p>#2C2C2C</p></div>
                     </div>
+
+                    <h4>Logo</h4>
+                    <!-- insert logo -->
+
+                    <h4>Typography</h4>
+                    <p>Roboto was the sole typeface used throughout the web application, for its legibility and readability at all sizes.</p>
+
+                    <h4>Mockups</h4>
+                    <!-- insert mockups -->
                 </div>
 
                 <button class="accordion">Development</button>
                 <div class="panel">
-                    <p>Lorem ipsum...</p>
+                    <p>Using my design as the prototype, I worked in a collaborative team of three to develop a functional, responsive web application using The Movie Database (TMDB) API for fetching and displaying the movie data, and React, Sass, and GitHub for development.</p>
                 </div>
 
                 <button class="accordion">Reflections</button>
