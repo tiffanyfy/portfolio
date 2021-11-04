@@ -565,7 +565,7 @@ footer .social-links a {
 }
 
 /* Styles for individual project pages */
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .individual-project {
     display: -ms-grid;
     display: grid;
@@ -573,8 +573,8 @@ footer .social-links a {
         grid-template-rows: 1fr 1fr;
     -ms-grid-columns: 640px 1fr;
         grid-template-columns: 640px 1fr;
-    -webkit-column-gap: 2rem;
-            column-gap: 2rem;
+    -webkit-column-gap: 2.5rem;
+            column-gap: 2.5rem;
   }
   .individual-hero {
     -ms-grid-row: 1;
@@ -613,6 +613,7 @@ footer .social-links a {
 /* Hero/page banner images */
 .individual-hero img {
   width: 100%;
+  max-width: 1024px;
   margin-top: 1.5rem;
 }
 
