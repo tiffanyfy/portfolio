@@ -571,8 +571,8 @@ footer .social-links a {
     display: grid;
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 640px 1fr;
+        grid-template-columns: 640px 1fr;
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
   }
