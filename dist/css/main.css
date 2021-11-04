@@ -870,6 +870,12 @@ h1 {
   text-shadow: 2px 3px 15px rgba(0, 0, 0, 0.15);
 }
 
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
 /* Styles the color palettes that are featured on individual project pages */
 .color-container {
   display: -ms-grid;
