@@ -571,10 +571,10 @@ footer .social-links a {
   .individual-project {
     display: -ms-grid;
     display: grid;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    -ms-grid-columns: 640px 1fr;
-        grid-template-columns: 640px 1fr;
+    -ms-grid-rows: auto 1fr;
+        grid-template-rows: auto 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     -webkit-column-gap: 2.5rem;
             column-gap: 2.5rem;
   }

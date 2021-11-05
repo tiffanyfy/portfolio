@@ -2,9 +2,10 @@
 
 @media (min-width: map-get($breakpoint, desktop)) {
     .individual-project {
-        display: grid; 
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 640px 1fr;
+        display: grid;
+        // grid-template-rows: 800px 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr 1fr;
         column-gap: 2.5rem;
     }
 
