@@ -93,18 +93,14 @@
 
 /* Project logos with a black background */
 .logo-black {
-    width: 125px;
-    padding: 1rem;
+    @include logo-container;
     background-color: black;
-    border-radius: 20px;
 }
 
 /* Project logos with a white background */
 .logo-white {
-    width: 125px;
-    padding: 1rem;
+    @include logo-container;
     background-color: white;
-    border-radius: 20px;
 }
 
 /* Design and development tools */

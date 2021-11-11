@@ -678,18 +678,22 @@ footer .social-links a {
 
 /* Project logos with a black background */
 .logo-black {
-  width: 125px;
+  width: 7.8125rem;
   padding: 1rem;
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+          box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
   background-color: black;
-  border-radius: 20px;
 }
 
 /* Project logos with a white background */
 .logo-white {
-  width: 125px;
+  width: 7.8125rem;
   padding: 1rem;
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+          box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
   background-color: white;
-  border-radius: 20px;
 }
 
 /* Design and development tools */
