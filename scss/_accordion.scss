@@ -15,12 +15,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
-    h3 {
-        margin: 0 0 0.5rem;
+.project-accordion {
+    h2 {
+        margin: 0;
+        font-size: 1.125rem;
     }
 }
-  
+
 /* Adds a background color to the button if it is clicked on and when hovering over it */
 .active, .accordion:hover {
     background-color: #ccc;
@@ -29,7 +32,6 @@
 /* Styles the accordion panel (hidden by default) */
 .panel {
     padding: 0 18px;
-    // background-color: white;
     background-color: transparent;
     max-height: 0;
     overflow: hidden;
