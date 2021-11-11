@@ -376,6 +376,13 @@ a {
   text-decoration: none;
 }
 
+figcaption {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+  text-align: center;
+  color: #5e5e5e;
+}
+
 section {
   margin: 2.5rem 0;
 }
