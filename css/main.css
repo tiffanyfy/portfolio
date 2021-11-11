@@ -697,6 +697,20 @@ footer .social-links a {
   outline: none;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  /* To align and space out h3 and + button */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accordion h3 {
+  margin: 0 0 0.5rem;
 }
 
 /* Adds a background color to the button if it is clicked on and when hovering over it */
