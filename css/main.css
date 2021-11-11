@@ -1046,9 +1046,15 @@ footer .social-links a {
 }
 
 @media (min-width: 550px) {
-  .color-container {
+  .color-container.three {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
+    /* change according to how many colors in palette */
+    max-width: 750px;
+  }
+  .color-container.four {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
     /* change according to how many colors in palette */
     max-width: 750px;
   }
@@ -1088,7 +1094,7 @@ footer .social-links a {
   text-transform: uppercase;
 }
 
-/* Movie Database Color Palette */
+/* Movie Database color palette */
 .movie-1 {
   background-color: #DB3A34;
 }
@@ -1099,6 +1105,23 @@ footer .social-links a {
 
 .movie-3 {
   background-color: #2C2C2C;
+}
+
+/* Capstone color palette */
+.capstone-1 {
+  background-color: #E6D8C5;
+}
+
+.capstone-2 {
+  background: #A16E5C;
+}
+
+.capstone-3 {
+  background-color: #AAA87C;
+}
+
+.capstone-4 {
+  background-color: #696E61;
 }
 
 /* Text meant only for screen readers. */
