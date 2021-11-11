@@ -66,7 +66,7 @@
    50% { transform: translate(50%, 20%) rotate(-200deg) scale(1.2);}
 }
 
-h1 {
+.banner-heading {
 	font-family: 'Playfair Display', serif;
     font-size: 2em;
 	letter-spacing: 2px;
@@ -79,7 +79,7 @@ h1 {
 }
 
 @media (min-width: map-get($breakpoint, tablet)) {
-	h1 {
+	.banner-heading {
 		font-size: 3em;
 	}
 }

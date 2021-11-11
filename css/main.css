@@ -883,7 +883,7 @@ footer .social-links a {
   }
 }
 
-h1 {
+.banner-heading {
   font-family: 'Playfair Display', serif;
   font-size: 2em;
   letter-spacing: 2px;
@@ -896,7 +896,7 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  h1 {
+  .banner-heading {
     font-size: 3em;
   }
 }
