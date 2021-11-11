@@ -693,6 +693,24 @@ footer .social-links a {
   border-radius: 20px;
 }
 
+/* Design and development tools */
+.tools h3 {
+  text-align: center;
+}
+
+.tools .tool-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tools .tool-icons img {
+  margin: 0 0.5rem;
+}
+
 /* Styles the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: transparent;

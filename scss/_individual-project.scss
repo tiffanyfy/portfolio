@@ -106,3 +106,20 @@
     background-color: white;
     border-radius: 20px;
 }
+
+/* Design and development tools */
+.tools {
+
+    h3 {
+        text-align: center;
+    }
+
+    .tool-icons {
+        display: flex;
+        justify-content: center;
+    
+        img {
+            margin: 0 0.5rem;
+        }
+    }
+}
