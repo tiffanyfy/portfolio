@@ -598,8 +598,8 @@ footer .social-links a {
 
 .shape-blob {
   background: #f7bbb0;
-  height: 200px;
-  width: 200px;
+  height: 12.5rem;
+  width: 12.5rem;
   border-radius: 30% 50% 20% 40%;
   -webkit-animation: transform 20s ease-in-out infinite both alternate, movement_one 40s ease-in-out infinite both;
           animation: transform 20s ease-in-out infinite both alternate, movement_one 40s ease-in-out infinite both;
@@ -610,10 +610,10 @@ footer .social-links a {
 }
 
 .shape-blob.one {
-  height: 500px;
-  width: 500px;
-  left: -200px;
-  top: -150px;
+  height: 31.25rem;
+  width: 31.25rem;
+  left: -12.5rem;
+  top: -9.375rem;
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
   -webkit-animation: transform 30s ease-in-out infinite both alternate, movement_two 60s ease-in-out infinite both;
@@ -621,10 +621,10 @@ footer .social-links a {
 }
 
 .shape-blob.two {
-  height: 350px;
-  width: 350px;
-  left: 500px;
-  top: -150px;
+  height: 21.875rem;
+  width: 21.875rem;
+  left: 31.25rem;
+  top: -9.375rem;
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
   -webkit-animation: transform 30s ease-in-out infinite both alternate, movement_two 60s ease-in-out infinite both;
@@ -719,11 +719,11 @@ footer .social-links a {
 
 .banner-heading {
   font-family: 'Playfair Display', serif;
-  font-size: 2em;
+  font-size: 2rem;
   letter-spacing: 2px;
   font-weight: 900;
   color: white;
-  line-height: .9em;
+  line-height: .9rem;
   position: relative;
   z-index: 4;
   text-shadow: 2px 3px 15px rgba(0, 0, 0, 0.15);
@@ -731,7 +731,7 @@ footer .social-links a {
 
 @media (min-width: 768px) {
   .banner-heading {
-    font-size: 3em;
+    font-size: 3rem;
   }
 }
 
@@ -1016,6 +1016,14 @@ footer .social-links a {
   text-align: center;
 }
 
+.project-accordion {
+  margin-top: 2rem;
+}
+
+.project-accordion button {
+  font-weight: 700;
+}
+
 /* Styles the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: transparent;
@@ -1038,11 +1046,6 @@ footer .social-links a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.project-accordion h2 {
-  margin: 0;
-  font-size: 1.125rem;
 }
 
 /* Adds a background color to the button if it is clicked on and when hovering over it */
