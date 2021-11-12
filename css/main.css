@@ -366,8 +366,6 @@ h6 {
 }
 
 h1 {
-  padding-top: 3.4375rem;
-  /* to offset header height */
   font-size: 2rem;
 }
 
@@ -876,6 +874,14 @@ footer .social-links a {
   max-width: 112.5rem;
 }
 
+.individual-project h1 {
+  padding-top: 0;
+}
+
+.individual-project h2 {
+  margin-top: 2rem;
+}
+
 @media (min-width: 75rem) {
   .individual-project {
     display: -ms-grid;
@@ -886,6 +892,10 @@ footer .social-links a {
         grid-template-columns: 1fr 1fr;
     -webkit-column-gap: 2.5rem;
             column-gap: 2.5rem;
+  }
+  .individual-project h1 {
+    padding-top: 3.4375rem;
+    /* to offset header height */
   }
   .individual-hero {
     -ms-grid-row: 1;
@@ -932,9 +942,6 @@ footer .social-links a {
   .individual-hero img {
     margin-top: 3.4375rem;
     /* to account for header height */
-  }
-  .individual-project h2 {
-    padding-top: 1.5rem;
   }
 }
 
