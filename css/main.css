@@ -479,6 +479,15 @@ footer .social-links a {
   }
 }
 
+.parallax {
+  height: 100%;
+  /* Creates the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .project-card {
   padding: 2rem;
   margin: 1rem auto;
@@ -511,16 +520,8 @@ footer .social-links a {
   margin: 0 auto;
 }
 
-.parallax {
-  height: 100%;
-  /* Creates the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #about-section {
+  max-width: 1024px;
   padding: 2rem;
 }
 
@@ -535,7 +536,7 @@ footer .social-links a {
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
-    gap: 0 1.5rem;
+    gap: 0 2rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -554,11 +555,16 @@ footer .social-links a {
 #projects-section {
   background-color: #E0C4BD;
   margin: 0;
-  padding: 2rem;
+  padding: 4rem 2rem;
 }
 
 #projects-section h2 {
   text-align: center;
+}
+
+#projects-section-description {
+  max-width: 1024px;
+  margin: 0 auto 2rem;
 }
 
 .container {
