@@ -1017,11 +1017,14 @@ footer .social-links a {
 }
 
 .project-accordion {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .project-accordion button {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.5rem;
   font-weight: 700;
+  color: black;
 }
 
 /* Styles the buttons that are used to open and close the accordion panel */
@@ -1029,7 +1032,7 @@ footer .social-links a {
   background-color: transparent;
   color: #444;
   cursor: pointer;
-  padding: 18px;
+  padding: 1.125rem;
   width: 100%;
   text-align: left;
   border: none;
@@ -1055,7 +1058,7 @@ footer .social-links a {
 
 /* Styles the accordion panel (hidden by default) */
 .panel {
-  padding: 0 18px;
+  padding: 0 1.125rem;
   background-color: transparent;
   max-height: 0;
   overflow: hidden;
@@ -1066,10 +1069,10 @@ footer .social-links a {
 .accordion:after {
   content: '\02795';
   /* Unicode character for "+" sign */
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: #777;
   float: right;
-  margin-left: 5px;
+  margin-left: 0.3125rem;
 }
 
 .active:after {

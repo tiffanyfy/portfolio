@@ -1,10 +1,21 @@
+.project-accordion {
+    margin-top: 4rem;
+
+    button {
+        font-family: 'Cabin', sans-serif;
+        font-size: 1.5rem;
+        font-weight: map-get($font-weight, bold);
+        color: black;
+    }
+}
+
 /* Styles the buttons that are used to open and close the accordion panel */
 .accordion {
     // background-color: #eee;
     background-color: transparent;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 1.125rem;
     width: 100%;
     text-align: left;
     border: none;
@@ -17,13 +28,6 @@
     align-items: center;
 }
 
-.project-accordion {
-    h2 {
-        margin: 0;
-        font-size: 1.125rem;
-    }
-}
-
 /* Adds a background color to the button if it is clicked on and when hovering over it */
 .active, .accordion:hover {
     background-color: #ccc;
@@ -31,7 +35,7 @@
   
 /* Styles the accordion panel (hidden by default) */
 .panel {
-    padding: 0 18px;
+    padding: 0 1.125rem;
     background-color: transparent;
     max-height: 0;
     overflow: hidden;
@@ -41,10 +45,10 @@
 .accordion {
     &:after {
         content: '\02795'; /* Unicode character for "+" sign */
-        font-size: 13px;
+        font-size: 0.8125rem;
         color: #777;
         float: right;
-        margin-left: 5px;
+        margin-left: 0.3125rem;
     }
 }
   
