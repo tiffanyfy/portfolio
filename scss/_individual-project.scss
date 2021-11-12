@@ -1,5 +1,9 @@
 /* Styles for individual project pages */
 
+.individual-project {
+    max-width: $wrapper-large;
+}
+
 @media (min-width: map-get($breakpoint, desktop)) {
     .individual-project {
         display: grid;

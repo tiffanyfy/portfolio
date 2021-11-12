@@ -530,7 +530,7 @@ footer .social-links a {
 }
 
 #about-section {
-  max-width: 1024px;
+  max-width: 64rem;
   padding: 2rem;
 }
 
@@ -572,7 +572,7 @@ footer .social-links a {
 }
 
 #projects-section-description {
-  max-width: 1024px;
+  max-width: 64rem;
   margin: 0 auto 2rem;
 }
 
@@ -862,6 +862,10 @@ footer .social-links a {
 }
 
 /* Styles for individual project pages */
+.individual-project {
+  max-width: 112.5rem;
+}
+
 @media (min-width: 1200px) {
   .individual-project {
     display: -ms-grid;
