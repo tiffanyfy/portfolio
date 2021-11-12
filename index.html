@@ -30,14 +30,14 @@
     </header>
 
     <main>
-
+        <!-- Beginning of banner -->
         <div class="container">
             <h1 class="banner-heading">Tiffany Yiu<br>Web Designer<br>& Developer</h1>
             <div class="shape-blob"></div>
             <div class="shape-blob one"></div>
             <div class="shape-blob two"></div>
             <div class="arrow-container">
-                <a class="text" href="index.html#projects-section">
+                <a class="text" href="index.html#about-section">
                     <div class="chevron"></div>
                     <div class="chevron"></div>
                     <div class="chevron"></div>
@@ -45,97 +45,94 @@
                 </a>
             </div>
         </div>
+        <!-- End of banner -->
 
-        <div class="site-wrapper">
+        <section id="about-section">
+            <img src="images/portrait-transparent-320.png" alt="Self portrait illustration" class="slideanim">
+            <div id="about-text-wrapper">
+                <h2>About</h2>
+                <p>Hi! I'm Tiffany, and I'm a junior web designer and front-end web developer with a background in customer care, e-commerce, and graphic design. I'm a recent graduate of the Front-End Web Developer program at BCIT and I have hands-on experience in designing and developing responsive websites and web applications. I have a passion for writing clean code and creating visually appealing designs.</p>
+                <p>When I'm not coding my days away, you can find me having a movie marathon or checking out the newest vegan restaurant in town. Feel free to say hello or learn more about me using the links below.</p>
+            </div>
+        </section>
 
-            <section id="about-section" class="slideanim">
-                <img src="images/portrait-transparent-320.png" alt="Self portrait illustration">
-                <div id="about-text-wrapper">
-                    <h2>About</h2>
-                    <p>Hi! I'm Tiffany, and I'm a junior web designer and front-end web developer with a background in customer care, e-commerce, and graphic design. I'm a recent graduate of the Front-End Web Developer program at BCIT and I have hands-on experience in designing and developing responsive websites and web applications. I have a passion for writing clean code and creating visually appealing designs.</p>
-                    <p>When I'm not coding my days away, you can find me having a movie marathon or checking out the newest vegan restaurant in town. Feel free to say hello or learn more about me using the links below.</p>
-                </div>
-            </section>
+        <section id="projects-section">
 
-            <section id="projects-section">
+            <div id="projects-section-description">
+                <h2>Projects</h2>
+                <p>These are some featured projects that I worked on during my time in the Front-End Web Developer program along with other past projects. Stay tuned for more exciting projects to come!</p> 
+            </div>
 
-                <div id="projects-section-description" class="slideanim">
-                    <h2>Projects</h2>
-                    <p>These are some featured projects that I worked on during my time in the Front-End Web Developer program along with other past projects. Stay tuned for more exciting projects to come!</p> 
-                </div>
+            <div class="projects-wrapper">
 
-                <div class="projects-wrapper">
+                <article class="slideanim">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="images/capstone-192.png">
+                        <source media="(min-width: 481px)" srcset="images/capstone-320.png">
+                        <img src="images/capstone-192.png" alt="Capstone project project mockup">
+                    </picture>
+                    <h3>Capstone Project</h3>
+                    <p>UI Design, Front-End Web Development</p>
+                    <a href="capstone-project.html">View Project</a>
+                </article>
 
-                    <article class="slideanim">
-                        <picture>
-                            <source media="(max-width: 480px)" srcset="images/capstone-192.png">
-                            <source media="(min-width: 481px)" srcset="images/capstone-320.png">
-                            <img src="images/capstone-192.png" alt="Capstone project project mockup">
-                        </picture>
-                        <h3>Capstone Project</h3>
-                        <p>UI Design, Front-End Web Development</p>
-                        <a href="capstone-project.html">View Project</a>
-                    </article>
+                <article class="slideanim">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="images/movie-database-192.png">
+                        <source media="(min-width: 481px)" srcset="images/movie-database-320.png">
+                        <img src="images/movie-database-192.png" alt="Movie database web application project mockup">
+                    </picture>
+                    <h3>Movie Database Web Application</h3>
+                    <p>UI Design, Front-End Web Development</p>
+                    <a href="movie-database.html">View Project</a>
+                </article>
 
-                    <article class="slideanim">
-                        <picture>
-                            <source media="(max-width: 480px)" srcset="images/movie-database-192.png">
-                            <source media="(min-width: 481px)" srcset="images/movie-database-320.png">
-                            <img src="images/movie-database-192.png" alt="Movie database web application project mockup">
-                        </picture>
-                        <h3>Movie Database Web Application</h3>
-                        <p>UI Design, Front-End Web Development</p>
-                        <a href="movie-database.html">View Project</a>
-                    </article>
+                <article class="slideanim">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="images/strategic-design-192.png">
+                        <source media="(min-width: 481px)" srcset="images/strategic-design-320.png">
+                        <img src="images/strategic-design-192.png" alt="Strategic design campaign project mockup">
+                    </picture>
+                    <h3>Strategic Design Campaign</h3>
+                    <p>UX Research, UI Design, Concept and Campaign Development</p>
+                    <a href="strategic-design-campaign.html">View Project</a>
+                </article>
 
-                    <article class="slideanim">
-                        <picture>
-                            <source media="(max-width: 480px)" srcset="images/strategic-design-192.png">
-                            <source media="(min-width: 481px)" srcset="images/strategic-design-320.png">
-                            <img src="images/strategic-design-192.png" alt="Strategic design campaign project mockup">
-                        </picture>
-                        <h3>Strategic Design Campaign</h3>
-                        <p>UX Research, UI Design, Concept and Campaign Development</p>
-                        <a href="strategic-design-campaign.html">View Project</a>
-                    </article>
+                <article class="slideanim">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="images/portfolio-192.png">
+                        <source media="(min-width: 481px)" srcset="images/portfolio-320.png">
+                        <img src="images/portfolio-192.png" alt="Portfolio website project mockup">
+                    </picture>
+                    <h3>Portfolio Website</h3>
+                    <p>UX/UI Design, Front-End Web Development</p>
+                    <a href="portfolio-website.html">View Project</a>
+                </article>
 
-                    <article class="slideanim">
-                        <picture>
-                            <source media="(max-width: 480px)" srcset="images/portfolio-192.png">
-                            <source media="(min-width: 481px)" srcset="images/portfolio-320.png">
-                            <img src="images/portfolio-192.png" alt="Portfolio website project mockup">
-                        </picture>
-                        <h3>Portfolio Website</h3>
-                        <p>UX/UI Design, Front-End Web Development</p>
-                        <a href="portfolio-website.html">View Project</a>
-                    </article>
+                <article class="slideanim">
+                    <picture>
+                        <source media="(max-width: 480px)" srcset="images/ux-brief-192.png">
+                        <source media="(min-width: 481px)" srcset="images/ux-brief-320.png">
+                        <img src="images/ux-brief-192.png" alt="UX design brief project mockup">
+                    </picture>
+                    <h3>UX Design Brief</h3>
+                    <p>UX Research</p>
+                    <a href="ux-design-brief.html">View Project</a>
+                </article>
 
-                    <article class="slideanim">
-                        <picture>
-                            <source media="(max-width: 480px)" srcset="images/ux-brief-192.png">
-                            <source media="(min-width: 481px)" srcset="images/ux-brief-320.png">
-                            <img src="images/ux-brief-192.png" alt="UX design brief project mockup">
-                        </picture>
-                        <h3>UX Design Brief</h3>
-                        <p>UX Research</p>
-                        <a href="ux-design-brief.html">View Project</a>
-                    </article>
-
-                </div>
-                
-            </section>
-
-        </div>
+            </div>
+            
+        </section>
         
     </main>
         
-    <footer class="slideanim">
+    <footer>
 
         <h2>Let's Connect</h2>
 
         <p>I'd love to hear from you, whether just to say hi or chat about a collaborating on a project.</p>
 
-        <a href="mailto:tiffanyyiu3@gmail.com">tiffanyyiu3@gmail.com</a>
+        <!-- <a href="mailto:tiffanyyiu3@gmail.com">tiffanyyiu3@gmail.com</a> -->
 
         <div class="social-links">
             <a href="https://www.linkedin.com/in/tiffany-yiu/">

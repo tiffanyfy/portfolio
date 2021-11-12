@@ -39,7 +39,6 @@ article {
 
 @media (min-width: map-get($breakpoint, tablet)) {
     #about-section {
-        max-width: map-get($breakpoint, laptop);
         padding: 6rem 2rem;
         display: flex;
         margin: 0 auto;

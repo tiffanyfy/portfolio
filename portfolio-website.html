@@ -27,136 +27,132 @@
         </nav>
     </header>
     
-    <div class="site-wrapper individual-wrapper">
+    <main class="individual-project">
 
-        <main class="individual-project">
+        <picture class="individual-hero">
+            <source media="(max-width: 480px)" srcset="images/portfolio-640.png">
+            <!-- <source media="(max-width: 1024px)" srcset="images/strategic-design-1024.png"> -->
+            <source media="(max-width: 1199px)" srcset="images/portfolio-1024.png">
+            <img src="images/portfolio-640.png" alt="Placeholder image">
+        </picture>
 
-            <picture class="individual-hero">
-                <source media="(max-width: 480px)" srcset="images/portfolio-640.png">
-                <!-- <source media="(max-width: 1024px)" srcset="images/strategic-design-1024.png"> -->
-                <source media="(max-width: 1199px)" srcset="images/portfolio-1024.png">
-                <img src="images/portfolio-640.png" alt="Placeholder image">
-            </picture>
+        <div class="project-details">
+            <h1>Portfolio Website</h1>
 
-            <div class="project-details">
-                <h1>Portfolio Website</h1>
-
-                <section>
-                    <h2>Project Overview</h2>
-                    <p>The goal of this project was to create a fully functional, professional-level portfolio website based on our after-program career goals and industry expectations, showcase projects we've worked on, and demonstrate our skills using HTML, CSS, JavaScript, or other frameworks.</p>
+            <section>
+                <h2>Project Overview</h2>
+                <p>The goal of this project was to create a fully functional, professional-level portfolio website based on our after-program career goals and industry expectations, showcase projects we've worked on, and demonstrate our skills using HTML, CSS, JavaScript, or other frameworks.</p>
+            </section>
+            
+            <section>
+                <h2>Tools Used</h2>
+                <section class="tools">
+                    <h3>Design</h3>
+                    <div class="tool-icons">
+                        <img src="https://img.icons8.com/material-rounded/50/000000/adobe-xd.png" alt="Adobe XD icon" title="Adobe XD"/>
+                        <img src="https://img.icons8.com/material-rounded/50/000000/adobe-photoshop.png" alt="Adobe Photoshop icon" title="Adobe Photoshop"/>
+                        <img src="https://img.icons8.com/ios-glyphs/50/000000/adobe-illustrator.png" alt="Adobe Illustrator icon" title="Adobe Illustrator"/>
+                    </div>
                 </section>
-                
-                <section>
-                    <h2>Tools Used</h2>
-                    <section class="tools">
-                        <h3>Design</h3>
-                        <div class="tool-icons">
-                            <img src="https://img.icons8.com/material-rounded/50/000000/adobe-xd.png" alt="Adobe XD icon" title="Adobe XD"/>
-                            <img src="https://img.icons8.com/material-rounded/50/000000/adobe-photoshop.png" alt="Adobe Photoshop icon" title="Adobe Photoshop"/>
-                            <img src="https://img.icons8.com/ios-glyphs/50/000000/adobe-illustrator.png" alt="Adobe Illustrator icon" title="Adobe Illustrator"/>
-                        </div>
-                    </section>
-                    <section class="tools">
-                        <h3>Development</h3>
-                        <div class="tool-icons">
-                            <img src="https://img.icons8.com/material-rounded/50/000000/html.png" alt="HTML icon" title="HTML"/>
-                            <img src="https://img.icons8.com/material-rounded/50/000000/sass.png" alt="Sass icon" title="Sass"/>
-                            <img src="https://img.icons8.com/ios-glyphs/50/000000/javascript.png" alt="JavaScript icon" title="JavaScript"/>
-                            <img src="https://img.icons8.com/material-rounded/50/000000/github.png" alt="GitHub icon" title="GitHub"/>
-                        </div>
-                    </section class="tools">
-                </section>
-
-                <section>
-                    <h2>Role(s)</h2>
-                    <p>UX/UI Designer, Front-End Web Developer</p>
-                </section>
-
-                <div class="external-links">
-                    <a href="#">GitHub Repo</a>
-                    <a href="#">Live Site</a>
-                </div>
-
-            </div>
-
-            <section class="project-accordion">
-                
-                <button class="accordion">Planning</button>
-                <div class="panel">
-                    <section>
-                        <!-- <p>For the research phase of this project, I looked at some examples of student portfolios for inspiration. I knew that I wanted to have a clean and minimal design, while being able to...</p> -->
-                        <p>First, I created a content plan and sitemap, then visually mapped out my design by creating mobile and desktop wireframes. After finalizing the wireframes, I created high-fidelity prototypes for mobile and desktop versions of my site. All wireframing and prototyping was done using Adobe XD.</p>
-                        <p>Since my design was going to be minimal, I wanted to put focus on UX design. I researched ideas such as thumb-driven design, bottom navigation, and responsive images for efficiency and optimization. I also considered the use of CTA (call to action) buttons throughout the website, as they provide alternative ways for users to find certain information, as some users may rely on in-page navigation instead of primary navigation.</p>
-                    </section>
-                </div>
-
-                <!-- Beginning of design section -->
-
-                <button class="accordion">Design</button>
-                <div class="panel">
-                    <section>
-                        <p>Practice with grid layouts</p>
-                        <p>From a usability point of view, I kept all three menu items visible and implemented a fixed bottom navigation for the small screens.</p>
-                    </section>
-                    <section>
-                        <h4>Color Palette</h4>
-                        <div class="color-container three">
-                            <div class="color movie-1"><p>#DB3A34</p></div>
-                            <div class="color movie-2"><p>#434343</p> </div>
-                            <div class="color movie-3"><p>#2C2C2C</p></div>
-                        </div>
-                    </section>
-
-                    <section>
-                        <h4>Logo</h4>
-                        <img src="images/portfolio-logo.png" alt="Tiffany Yiu logo" class="logo-white">
-                    </section>
-
-                    <section>
-                        <h4>Typography</h4>
-                    </section>
-
-                    <section>
-                        <h4>Mockups</h4>
-                    </section>
-                </div>
-
-                <!-- Beginning of development section -->
-
-                <button class="accordion">Development</button>
-                <div class="panel">
-                    <section>
-                        <p>Once the design phase of the project was complete, I started the development stage. I started by adding most of the base HTML first, before adding styling using CSS/Sass, JavaScript, and additional information about projects.</p>
-                    </section>
-                    <section>
-                        <h4>Workflow</h4>
-                        <p>Although I worked on this project alone, I used Sass to keep my code as tidy, consistent, and DRY as possible using variables, mixins, and partials. I also used GitHub during development, so that I could have a complete history of my project from start to finish, compare different versions of code, and gain more experience working with a commonly-used, industry standard tool.</p>
-                    </section>
-                    <section>
-                        <h4>Responsive Images</h4>
-                        <p>As previously mentioned, I learned more about the use of responsive images throughout my website for efficiency and optimization purposes. To implement this, I used the srcset and picture elements to ensure appropriately sized image were used for difference screen sizes.</p>
-                    </section>
-                </div>
-
-                <!-- Beginning of reflections section -->
-
-                <button class="accordion">Reflections</button>
-                <div class="panel">
-                    <section>
-                        <p>All in all, this project has been a great learning opportunity for me. It gave me the chance to try out new things and also learn as I go.</p>
-                        <p>As this version of my portfolio was completed at the same time as our Capstone project, I didn't get to spend as much undivided attention on it. However, one thing that I like about personal portfolios is that they are constantly evolving. Through what I've seen during my research and things that I've learned since starting this project, I can already find myself thinking of small updates I can make and even making plans to challenge myself and create an entirely different design in the near future.</p>
-                    </section>
-                </div>
-
-                <div>
-                    <a href="index.html#projects-section" class="back-to-projects">Back To Projects</a>
-                </div>
-
+                <section class="tools">
+                    <h3>Development</h3>
+                    <div class="tool-icons">
+                        <img src="https://img.icons8.com/material-rounded/50/000000/html.png" alt="HTML icon" title="HTML"/>
+                        <img src="https://img.icons8.com/material-rounded/50/000000/sass.png" alt="Sass icon" title="Sass"/>
+                        <img src="https://img.icons8.com/ios-glyphs/50/000000/javascript.png" alt="JavaScript icon" title="JavaScript"/>
+                        <img src="https://img.icons8.com/material-rounded/50/000000/github.png" alt="GitHub icon" title="GitHub"/>
+                    </div>
+                </section class="tools">
             </section>
 
-        </main>
+            <section>
+                <h2>Role(s)</h2>
+                <p>UX/UI Designer, Front-End Web Developer</p>
+            </section>
 
-    </div>
+            <div class="external-links">
+                <a href="#">GitHub Repo</a>
+                <a href="#">Live Site</a>
+            </div>
+
+        </div>
+
+        <section class="project-accordion">
+            
+            <button class="accordion">Planning</button>
+            <div class="panel">
+                <section>
+                    <!-- <p>For the research phase of this project, I looked at some examples of student portfolios for inspiration. I knew that I wanted to have a clean and minimal design, while being able to...</p> -->
+                    <p>First, I created a content plan and sitemap, then visually mapped out my design by creating mobile and desktop wireframes. After finalizing the wireframes, I created high-fidelity prototypes for mobile and desktop versions of my site. All wireframing and prototyping was done using Adobe XD.</p>
+                    <p>Since my design was going to be minimal, I wanted to put focus on UX design. I researched ideas such as thumb-driven design, bottom navigation, and responsive images for efficiency and optimization. I also considered the use of CTA (call to action) buttons throughout the website, as they provide alternative ways for users to find certain information, as some users may rely on in-page navigation instead of primary navigation.</p>
+                </section>
+            </div>
+
+            <!-- Beginning of design section -->
+
+            <button class="accordion">Design</button>
+            <div class="panel">
+                <section>
+                    <p>I mainly wanted to have a fairly clean and simple design, utilizing functionalities such as scroll animations and use of grid layouts. For usability purposes, I kept all primary navigation links visible and implemented a fixed bottom navigation for small screens.</p>
+                </section>
+                <section>
+                    <h4>Color Palette</h4>
+                    <div class="color-container three">
+                        <div class="color movie-1"><p>#DB3A34</p></div>
+                        <div class="color movie-2"><p>#434343</p> </div>
+                        <div class="color movie-3"><p>#2C2C2C</p></div>
+                    </div>
+                </section>
+
+                <section>
+                    <h4>Logo</h4>
+                    <p>The logo was created using Adobe Illustrator, of my last name written in cursive with the same colors as the palette used throughout the website. It is meant to convey a fresh and fun feeling with the almost bubble-like, rounded corners - a design choice that is also reflected throughout the website.</p>
+                    <img src="images/portfolio-logo.png" alt="Tiffany Yiu logo" class="logo-white">
+                </section>
+
+                <section>
+                    <h4>Typography</h4>
+                </section>
+
+                <section>
+                    <h4>Mockups</h4>
+                    <p></p>
+                </section>
+            </div>
+
+            <!-- Beginning of development section -->
+
+            <button class="accordion">Development</button>
+            <div class="panel">
+                <section>
+                    <p>Once the design phase of the project was complete, I started the development stage. I started by adding most of the base HTML first, before adding styling using CSS/Sass, JavaScript, and additional information about projects.</p>
+                </section>
+                <section>
+                    <h4>Workflow</h4>
+                    <p>Although I worked on this project alone, I used Sass to keep my code as tidy, consistent, and DRY as possible using variables, mixins, and partials. I also used GitHub during development, so that I could have a complete history of my project from start to finish, compare different versions of code, and gain more experience working with a commonly-used, industry standard tool.</p>
+                </section>
+                <section>
+                    <h4>Responsive Images</h4>
+                    <p>As previously mentioned, I learned more about the use of responsive images throughout my website for efficiency and optimization purposes. To implement this, I used the srcset and picture elements to ensure appropriately sized image were used for difference screen sizes.</p>
+                </section>
+            </div>
+
+            <!-- Beginning of reflections section -->
+
+            <button class="accordion">Reflections</button>
+            <div class="panel">
+                <section>
+                    <p>All in all, this project has been a great learning opportunity for me. It gave me the chance to try out new things and also learn as I go. As this version of my portfolio was completed at the same time as our Capstone project, I didn't get to spend as much undivided attention on it. However, the thing about personal portfolios is that they are constantly evolving. Through what I've seen during my research and things that I've learned since starting this project, I can already find myself thinking of small updates I can make and even making plans to challenge myself and create an entirely different design in the near future.</p>
+                </section>
+            </div>
+
+            <div>
+                <a href="index.html#projects-section" class="back-to-projects">Back To Projects</a>
+            </div>
+
+        </section>
+
+    </main>
 
     <footer>
         <h2>Let's Connect</h2>

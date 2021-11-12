@@ -388,18 +388,6 @@ img {
   margin: 0 auto;
 }
 
-.site-wrapper {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
-/* Site wrapper on individual project pages */
-@media (min-width: 1024px) {
-  .individual-wrapper {
-    max-width: 1920px;
-  }
-}
-
 nav {
   position: fixed;
   bottom: 0;
@@ -541,7 +529,6 @@ article a {
 
 @media (min-width: 768px) {
   #about-section {
-    max-width: 1024px;
     padding: 6rem 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
