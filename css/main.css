@@ -919,57 +919,6 @@ footer .social-links a {
   }
 }
 
-/* External links (e.g. GitHub, live demo) */
-.external-links a {
-  max-width: 200px;
-  /* adjust value */
-  padding: 0.75rem;
-  margin: 0.5rem auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: grey;
-  color: white;
-  border-radius: 20px;
-}
-
-@media (min-width: 550px) {
-  .external-links {
-    max-width: 500px;
-    /* adjust value */
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .external-links a {
-    width: 100%;
-  }
-}
-
-/* Project logos with a black background */
-.logo-black {
-  width: 7.8125rem;
-  padding: 1rem;
-  border-radius: 1.25rem;
-  -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
-          box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
-  background-color: black;
-}
-
-/* Project logos with a white background */
-.logo-white {
-  width: 7.8125rem;
-  padding: 1rem;
-  border-radius: 1.25rem;
-  -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
-          box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
-  background-color: white;
-}
-
 /* Design and development tools */
 .tools h3 {
   text-align: center;
@@ -988,10 +937,78 @@ footer .social-links a {
   margin: 0 0.5rem;
 }
 
-/* Project mockup cards */
+/* Project logos with a black background (used inside accordions) */
+.logo-black {
+  width: 7.8125rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+          box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+  background-color: black;
+}
+
+/* Project logos with a white background (used inside accordions) */
+.logo-white {
+  width: 7.8125rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+          box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+  background-color: white;
+}
+
+/* Project mockup cards (used inside accordions) */
 .project-mockup {
   padding: 1rem 0;
   border-radius: 1.5rem;
+}
+
+/* External links and back to projects */
+.external-links.three-links {
+  max-width: 18.75rem;
+  margin: 3rem auto 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 0.25rem;
+}
+
+.external-links.three-links a {
+  padding: 1rem;
+  background-color: grey;
+  border-radius: 0.625rem;
+  color: white;
+  text-align: center;
+}
+
+.external-links.three-links .back-to-projects {
+  -ms-grid-row: 2;
+  grid-row: 2/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+}
+
+.external-links.two-links {
+  margin: 3rem auto 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.25rem;
+}
+
+.external-links.two-links a {
+  padding: 1rem;
+  background-color: grey;
+  border-radius: 0.625rem;
+  color: white;
+  text-align: center;
 }
 
 /* Styles the buttons that are used to open and close the accordion panel */
