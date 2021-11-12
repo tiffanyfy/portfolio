@@ -3,7 +3,6 @@
 @media (min-width: map-get($breakpoint, desktop)) {
     .individual-project {
         display: grid;
-        // grid-template-rows: 800px 1fr;
         grid-template-rows: auto 1fr;
         grid-template-columns: 1fr 1fr;
         column-gap: 2.5rem;
@@ -77,18 +76,6 @@
             width: 100%;
         }
     }
-}
-
-/* Back to projects CTA button */
-.back-to-projects {
-    max-width: 200px; /* adjust value */
-    padding: 0.75rem;
-    margin: 0.5rem auto 1rem;
-    display: flex;
-    justify-content: center;
-    background-color: grey;
-    color: white;
-    border-radius: 20px;
 }
 
 /* Project logos with a black background */

@@ -950,23 +950,6 @@ footer .social-links a {
   }
 }
 
-/* Back to projects CTA button */
-.back-to-projects {
-  max-width: 200px;
-  /* adjust value */
-  padding: 0.75rem;
-  margin: 0.5rem auto 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: grey;
-  color: white;
-  border-radius: 20px;
-}
-
 /* Project logos with a black background */
 .logo-black {
   width: 7.8125rem;
