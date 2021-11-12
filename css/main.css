@@ -717,7 +717,7 @@ footer .social-links a {
 /* Project mockup cards */
 .project-mockup {
   padding: 1rem 0;
-  border-radius: 32px;
+  border-radius: 1.5rem;
 }
 
 /* Styles the buttons that are used to open and close the accordion panel */
