@@ -727,14 +727,15 @@ footer .social-links a {
 }
 
 .banner-heading {
-  font-family: 'Playfair Display', serif;
-  font-size: 2em;
-  letter-spacing: 2px;
-  font-weight: 900;
-  color: white;
-  line-height: .9em;
+  padding: 0;
   position: relative;
   z-index: 4;
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: .9em;
+  color: white;
   text-shadow: 2px 3px 15px rgba(0, 0, 0, 0.15);
 }
 
