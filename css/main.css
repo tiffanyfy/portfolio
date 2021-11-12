@@ -352,8 +352,6 @@ html {
 
 body {
   height: 100%;
-  margin: 0 auto;
-  background-color: #f5f0ed;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -383,84 +381,11 @@ figcaption {
   color: #5e5e5e;
 }
 
-section {
-  margin: 2.5rem 0;
-}
-
-article {
-  padding: 2rem;
-  margin: 1rem auto;
-  background-color: white;
-  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 20px;
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
-  /* animation */
-  max-width: 500px;
-  /* adjust value */
-}
-
-article h3,
-article p {
-  text-align: center;
-}
-
-article a {
-  padding: 0.5rem 1rem;
-  display: block;
-  background-color: grey;
-  border-radius: 20px;
-  color: white;
-  text-align: center;
-  width: 6rem;
-  margin: 0 auto;
-}
-
 img {
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.parallax {
-  /* Placeholder background image */
-  height: 100%;
-  /* Creates the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#projects-section-description {
-  padding: 1rem;
-}
-
-#projects-section-description h2 {
-  text-align: center;
-}
-
-#about-section {
-  padding: 1rem;
-}
-
-#about-section h2 {
-  text-align: center;
-}
-
-#about-section a {
-  padding: 0.5rem 1rem;
-  display: block;
-  background-color: grey;
-  border-radius: 20px;
-  color: white;
-  text-align: center;
-  width: 8rem;
-  margin: 1.5rem auto 0;
+  margin: 0 auto;
 }
 
 .site-wrapper {
@@ -565,217 +490,87 @@ footer .social-links a {
   }
 }
 
-/* Styles for individual project pages */
-@media (min-width: 1200px) {
-  .individual-project {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: auto 1fr;
-        grid-template-rows: auto 1fr;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -webkit-column-gap: 2.5rem;
-            column-gap: 2.5rem;
-  }
-  .individual-hero {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-column: 1/2;
-  }
-  .project-details {
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-  }
-  .project-accordion {
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    grid-row: 2/3;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-  }
-  .projects-button {
-    -ms-grid-row: 3;
-    -ms-grid-row-span: 1;
-    grid-row: 3/4;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-column: 2/3;
-  }
-}
-
-/* Hero/page banner images */
-.individual-hero img {
-  width: 100%;
-  max-width: 1024px;
-  margin-top: 1.5rem;
-}
-
-@media (min-width: 768px) {
-  .individual-hero img {
-    margin-top: 3.4375rem;
-    /* to account for header height */
-  }
-  .individual-project h2 {
-    padding-top: 1.5rem;
-  }
-}
-
-/* External links (e.g. GitHub, live demo) */
-.external-links a {
-  max-width: 200px;
-  /* adjust value */
-  padding: 0.75rem;
-  margin: 0.5rem auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: grey;
-  color: white;
-  border-radius: 20px;
-}
-
-@media (min-width: 550px) {
-  .external-links {
-    max-width: 500px;
-    /* adjust value */
-    margin: 0 auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .external-links a {
-    width: 100%;
-  }
-}
-
-/* Back to projects CTA button */
-.back-to-projects {
-  max-width: 200px;
-  /* adjust value */
-  padding: 0.75rem;
-  margin: 0.5rem auto 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: grey;
-  color: white;
-  border-radius: 20px;
-}
-
-/* Project logos with a black background */
-.logo-black {
-  width: 7.8125rem;
-  padding: 1rem;
-  border-radius: 1.25rem;
-  -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
-          box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
-  background-color: black;
-}
-
-/* Project logos with a white background */
-.logo-white {
-  width: 7.8125rem;
-  padding: 1rem;
-  border-radius: 1.25rem;
-  -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
-          box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+article {
+  padding: 2rem;
+  margin: 1rem auto;
   background-color: white;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  /* animation */
+  max-width: 500px;
+  /* adjust value */
 }
 
-/* Design and development tools */
-.tools h3 {
+article h3,
+article p {
   text-align: center;
 }
 
-.tools .tool-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+article a {
+  padding: 0.5rem 1rem;
+  display: block;
+  background-color: grey;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  width: 6rem;
+  margin: 0 auto;
 }
 
-.tools .tool-icons img {
-  margin: 0 0.5rem;
+.parallax {
+  height: 100%;
+  /* Creates the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* Project mockup cards */
-.project-mockup {
-  padding: 1rem 0;
-  border-radius: 1.5rem;
+#about-section {
+  padding: 2rem;
 }
 
-/* Styles the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: transparent;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  /* To align and space out h3 and + button */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+#about-section h2 {
+  text-align: center;
 }
 
-.project-accordion h2 {
+@media (min-width: 768px) {
+  #about-section {
+    max-width: 1024px;
+    padding: 6rem 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    gap: 0 1.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #about-section h2 {
+    text-align: left;
+  }
+  #about-section p {
+    margin-bottom: 2rem;
+  }
+  #about-section a {
+    display: initial;
+  }
+}
+
+#projects-section {
+  background-color: #E0C4BD;
   margin: 0;
-  font-size: 1.125rem;
+  padding: 2rem;
 }
 
-/* Adds a background color to the button if it is clicked on and when hovering over it */
-.active, .accordion:hover {
-  background-color: #ccc;
-}
-
-/* Styles the accordion panel (hidden by default) */
-.panel {
-  padding: 0 18px;
-  background-color: transparent;
-  max-height: 0;
-  overflow: hidden;
-  -webkit-transition: max-height 0.2s ease-out;
-  transition: max-height 0.2s ease-out;
-}
-
-.accordion:after {
-  content: '\02795';
-  /* Unicode character for "+" sign */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796";
-  /* Unicode character for "-" sign */
+#projects-section h2 {
+  text-align: center;
 }
 
 .container {
@@ -1061,6 +856,219 @@ footer .social-links a {
   to {
     opacity: 1;
   }
+}
+
+/* Styles for individual project pages */
+@media (min-width: 1200px) {
+  .individual-project {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: auto 1fr;
+        grid-template-rows: auto 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2.5rem;
+            column-gap: 2.5rem;
+  }
+  .individual-hero {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+  }
+  .project-details {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .project-accordion {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+  .projects-button {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+}
+
+/* Hero/page banner images */
+.individual-hero img {
+  width: 100%;
+  max-width: 1024px;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .individual-hero img {
+    margin-top: 3.4375rem;
+    /* to account for header height */
+  }
+  .individual-project h2 {
+    padding-top: 1.5rem;
+  }
+}
+
+/* External links (e.g. GitHub, live demo) */
+.external-links a {
+  max-width: 200px;
+  /* adjust value */
+  padding: 0.75rem;
+  margin: 0.5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: grey;
+  color: white;
+  border-radius: 20px;
+}
+
+@media (min-width: 550px) {
+  .external-links {
+    max-width: 500px;
+    /* adjust value */
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .external-links a {
+    width: 100%;
+  }
+}
+
+/* Back to projects CTA button */
+.back-to-projects {
+  max-width: 200px;
+  /* adjust value */
+  padding: 0.75rem;
+  margin: 0.5rem auto 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: grey;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Project logos with a black background */
+.logo-black {
+  width: 7.8125rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+          box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+  background-color: black;
+}
+
+/* Project logos with a white background */
+.logo-white {
+  width: 7.8125rem;
+  padding: 1rem;
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+          box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
+  background-color: white;
+}
+
+/* Design and development tools */
+.tools h3 {
+  text-align: center;
+}
+
+.tools .tool-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tools .tool-icons img {
+  margin: 0 0.5rem;
+}
+
+/* Project mockup cards */
+.project-mockup {
+  padding: 1rem 0;
+  border-radius: 1.5rem;
+}
+
+/* Styles the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  /* To align and space out h3 and + button */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project-accordion h2 {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+/* Adds a background color to the button if it is clicked on and when hovering over it */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Styles the accordion panel (hidden by default) */
+.panel {
+  padding: 0 18px;
+  background-color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '\02795';
+  /* Unicode character for "+" sign */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "-" sign */
 }
 
 /* Styles the color palettes that are featured on individual project pages */

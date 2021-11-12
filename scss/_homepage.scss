@@ -1,0 +1,71 @@
+article {
+    padding: 2rem;
+    margin: 1rem auto;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    transition: transform .2s; /* animation */
+    max-width: 500px; /* adjust value */
+
+    h3,
+    p {
+        text-align: center;
+    }
+
+    a {
+        @include more-button;
+        width: 6rem;
+        margin: 0 auto;
+    }
+}
+
+.parallax {
+    height: 100%;
+    /* Creates the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-section {
+    padding: 2rem;
+
+    h2 {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: map-get($breakpoint, tablet)) {
+    #about-section {
+        max-width: map-get($breakpoint, laptop);
+        padding: 6rem 2rem;
+        display: flex;
+        margin: 0 auto;
+        gap: 0 1.5rem;
+        align-items: center;
+
+        h2 {
+            text-align: left;
+        }
+
+        p {
+            margin-bottom: 2rem;
+        }
+
+        a {
+            display: initial;
+        }
+    }
+}
+
+#projects-section {
+    background-color: $color8;
+    margin: 0;
+    padding: 2rem;
+
+    h2 {
+        text-align: center;
+    }
+}

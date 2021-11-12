@@ -5,8 +5,7 @@ html {
 
 body {
     height: 100%;
-    margin: 0 auto;
-    background-color: $white;
+    // margin: 0 auto;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -36,73 +35,7 @@ figcaption {
     color: #5e5e5e;
 }
 
-section {
-    margin: 2.5rem 0;
-}
-
-article {
-    // height: 12.5rem;
-    padding: 2rem;
-    margin: 1rem auto;
-    background-color: white;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    border-radius: 20px;
-    transition: transform .2s; /* animation */
-    max-width: 500px; /* adjust value */
-    
-    // &:hover {
-    //     transform: scale(1.1); /* (1.1=110% zoom - if the zoom is too large, it will go outside of the viewport) */
-    // }
-
-    h3,
-    p {
-        text-align: center;
-    }
-
-    a {
-        @include more-button;
-        width: 6rem;
-        margin: 0 auto;
-    }
-}
-
 img {
-    // width: 100%; /* test after replacing placeholder images */
-    margin: 0 auto;
     display: flex;
-}
-
-.parallax {
-    /* Placeholder background image */
-    // background-image: url(../bg-1.jpeg);
-    height: 100%;
-    /* Creates the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#projects-section-description {
-    padding: 1rem;
-
-    h2 {
-        text-align: center;
-    }
-}
-
-#about-section {
-    // background-color: white;
-    padding: 1rem;
-
-    h2 {
-        text-align: center;
-    }
-
-    a {
-        @include more-button;
-        width: 8rem;
-        margin: 1.5rem auto 0;
-    }
-
+    margin: 0 auto;
 }
