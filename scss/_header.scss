@@ -1,13 +1,3 @@
-// body {
-//     margin: 0 0 55px 0; /* value must be the same as nav height */
-// }
-
-// @media (min-width: map-get($breakpoint, tablet)) {
-//     body {
-//         margin: 0;
-//     }
-// }
-
 nav {
     position: fixed;
     bottom: 0;
@@ -53,7 +43,3 @@ nav {
         
     }
 }
-
-// .nav__icon {
-//     font-size: 1.125rem;
-// }

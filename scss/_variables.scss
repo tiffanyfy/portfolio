@@ -19,10 +19,10 @@ $beige: #E0DBD4;
 
 /* Responsive Breakpoints */
 $breakpoint: (
-    mobile: 480px,
-    tablet: 768px,
-    laptop: 1024px,
-    desktop: 1200px
+    mobile: 30rem, /* 480px */
+    tablet: 48rem, /* 768px */
+    laptop: 64rem, /* 1024px */
+    desktop: 75rem /* 1200px */
 );
 
 /* Page Wrapper */
