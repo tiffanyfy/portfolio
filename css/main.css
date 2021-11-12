@@ -365,6 +365,11 @@ h6 {
   font-family: 'Cabin', sans-serif;
 }
 
+h1 {
+  padding-top: 3.4375rem;
+  /* to offset header height */
+}
+
 p {
   font-size: 1rem;
   font-weight: 300;
