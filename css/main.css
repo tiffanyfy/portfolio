@@ -938,6 +938,10 @@ footer .social-links a {
   }
 }
 
+.project-details {
+  padding: 0 1.125rem;
+}
+
 /* Design and development tools */
 .tools h3 {
   text-align: center;
