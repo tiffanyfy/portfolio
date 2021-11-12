@@ -510,14 +510,18 @@ footer .social-links a {
 }
 
 .project-card a {
-  padding: 0.5rem 1rem;
+  padding: 0.875rem 1rem;
   display: block;
   background-color: grey;
-  border-radius: 20px;
+  border-radius: 0.625rem;
   color: white;
   text-align: center;
   width: 6rem;
   margin: 0 auto;
+}
+
+.project-card a:hover {
+  background-color: #132838;
 }
 
 #about-section {
