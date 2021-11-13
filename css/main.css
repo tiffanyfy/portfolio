@@ -469,7 +469,7 @@ nav {
 }
 
 footer {
-  background-color: grey;
+  background-color: #eba1ad;
   color: white;
   padding: 1rem 1.5rem 3.4375rem;
   /* last value matches height of fixed header in mobile mode */
@@ -485,9 +485,13 @@ footer .social-links a {
   fill: white;
 }
 
+footer .social-links a:hover {
+  fill: #F25B3C;
+}
+
 @media (min-width: 48rem) {
   footer {
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
   }
 }
 
@@ -524,7 +528,7 @@ footer .social-links a {
 .project-card a {
   padding: 0.875rem 1rem;
   display: block;
-  background-color: grey;
+  background-color: #F25B3C;
   border-radius: 0.625rem;
   color: white;
   text-align: center;
@@ -533,7 +537,9 @@ footer .social-links a {
 }
 
 .project-card a:hover {
-  background-color: #132838;
+  border: 0.5px solid #F25B3C;
+  background-color: white;
+  color: black;
 }
 
 #about-section {
@@ -569,7 +575,7 @@ footer .social-links a {
 }
 
 #projects-section {
-  background-color: #E0C4BD;
+  background-color: #f8f1ec;
   margin: 0;
   padding: 4rem 2rem;
 }
@@ -584,7 +590,7 @@ footer .social-links a {
 }
 
 .container {
-  background: #132838;
+  background: #F3AEB9;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -604,7 +610,7 @@ footer .social-links a {
 }
 
 .shape-blob {
-  background: #f7bbb0;
+  background: #F25B3C;
   height: 12.5rem;
   width: 12.5rem;
   border-radius: 30% 50% 20% 40%;
@@ -1064,7 +1070,7 @@ footer .social-links a {
   outline: none;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  border-bottom: 1px solid #E0C4BD;
+  border-bottom: 1px solid #F3AEB9;
   /* To align and space out title and + button */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1079,7 +1085,7 @@ footer .social-links a {
 
 /* Adds a background color to the button if it is clicked on and when hovering over it */
 .active, .accordion:hover {
-  background-color: #E0C4BD;
+  background-color: #F3AEB9;
 }
 
 /* Styles the accordion panel (hidden by default) */

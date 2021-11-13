@@ -1,13 +1,15 @@
 @mixin more-button {
     padding: 0.875rem 1rem;
     display: block;
-    background-color: grey;
+    background-color: $color3;
     border-radius: 0.625rem;
     color: white;
     text-align: center;
 
     &:hover {
-        background-color: $darkblue;
+        border: 0.5px solid $color3;
+        background-color: white;
+        color: black;
     }
 }
 

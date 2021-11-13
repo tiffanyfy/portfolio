@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900');
 
 .container {
-	background: $darkblue;
+	background: $color2;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: row;
@@ -12,7 +12,7 @@
 }
 
 .shape-blob {
-	background: #f7bbb0;
+	background: $color3;
 	height: 12.5rem;
 	width: 12.5rem;
 	border-radius: 30% 50% 20% 40%;

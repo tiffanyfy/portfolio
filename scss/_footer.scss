@@ -1,5 +1,5 @@
 footer {
-    background-color: grey;
+    background-color: $color5;
     color: white;
     padding: 1rem 1.5rem 3.4375rem; /* last value matches height of fixed header in mobile mode */
     margin: 0 auto;
@@ -10,12 +10,16 @@ footer {
         a {
             margin-right: 0.5rem;
             fill: white;
+
+            &:hover {
+                fill: $color3;
+            }
         }   
     }
 }
 
 @media (min-width: map-get($breakpoint, tablet)) {
     footer {
-        padding: 1rem 1.5rem;
+        padding: 2rem 1.5rem;
     }
 }

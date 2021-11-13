@@ -20,7 +20,7 @@
     border: none;
     outline: none;
     transition: 0.4s;
-    border-bottom: 1px solid $blush;
+    border-bottom: 1px solid $color2;
     
     /* To align and space out title and + button */
     display: flex;
@@ -31,7 +31,7 @@
 /* Adds a background color to the button if it is clicked on and when hovering over it */
 .active, .accordion:hover {
     // background-color: #ccc;
-    background-color: $blush;
+    background-color: $color2;
 }
   
 /* Styles the accordion panel (hidden by default) */
