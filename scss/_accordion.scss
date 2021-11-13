@@ -11,7 +11,6 @@
 
 /* Styles the buttons that are used to open and close the accordion panel */
 .accordion {
-    // background-color: #eee;
     background-color: transparent;
     color: #444;
     cursor: pointer;
@@ -21,8 +20,9 @@
     border: none;
     outline: none;
     transition: 0.4s;
+    border-bottom: 1px solid $blush;
     
-    /* To align and space out h3 and + button */
+    /* To align and space out title and + button */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +30,8 @@
 
 /* Adds a background color to the button if it is clicked on and when hovering over it */
 .active, .accordion:hover {
-    background-color: #ccc;
+    // background-color: #ccc;
+    background-color: $blush;
 }
   
 /* Styles the accordion panel (hidden by default) */
@@ -46,7 +47,7 @@
     &:after {
         content: '\02795'; /* Unicode character for "+" sign */
         font-size: 0.8125rem;
-        color: #777;
+        color: black;
         float: right;
         margin-left: 0.3125rem;
     }

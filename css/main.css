@@ -1064,7 +1064,8 @@ footer .social-links a {
   outline: none;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  /* To align and space out h3 and + button */
+  border-bottom: 1px solid #E0C4BD;
+  /* To align and space out title and + button */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1078,7 +1079,7 @@ footer .social-links a {
 
 /* Adds a background color to the button if it is clicked on and when hovering over it */
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #E0C4BD;
 }
 
 /* Styles the accordion panel (hidden by default) */
@@ -1095,7 +1096,7 @@ footer .social-links a {
   content: '\02795';
   /* Unicode character for "+" sign */
   font-size: 0.8125rem;
-  color: #777;
+  color: black;
   float: right;
   margin-left: 0.3125rem;
 }
