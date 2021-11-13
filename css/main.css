@@ -492,6 +492,7 @@ footer .social-links a:hover {
 @media (min-width: 48rem) {
   footer {
     padding: 2rem 1.5rem;
+    text-align: center;
   }
 }
 
