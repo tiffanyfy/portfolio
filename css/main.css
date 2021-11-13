@@ -449,10 +449,11 @@ nav {
   /* removes the default blue highlight when links clicked on mobile device */
   -webkit-transition: background-color 0.1s ease-in-out;
   transition: background-color 0.1s ease-in-out;
+  color: #F25B3C;
 }
 
 .nav__link:hover {
-  background-color: lightgray;
+  background-color: #f8f1ec;
 }
 
 @media (min-width: 48rem) {
@@ -482,11 +483,11 @@ footer .social-links {
 
 footer .social-links a {
   margin-right: 0.5rem;
-  fill: white;
+  fill: #F25B3C;
 }
 
 footer .social-links a:hover {
-  fill: #F25B3C;
+  fill: #f8f1ec;
 }
 
 @media (min-width: 48rem) {
@@ -538,9 +539,8 @@ footer .social-links a:hover {
 }
 
 .project-card a:hover {
-  border: 0.5px solid #F25B3C;
-  background-color: white;
-  color: black;
+  background-color: #f8f1ec;
+  color: #F25B3C;
 }
 
 #about-section {
@@ -1015,10 +1015,15 @@ footer .social-links a:hover {
 
 .external-links.three-links a {
   padding: 1rem;
-  background-color: grey;
+  background-color: #F25B3C;
   border-radius: 0.625rem;
   color: white;
   text-align: center;
+}
+
+.external-links.three-links a:hover {
+  background-color: #f8f1ec;
+  color: #F25B3C;
 }
 
 .external-links.three-links .back-to-projects {
@@ -1042,10 +1047,15 @@ footer .social-links a:hover {
 
 .external-links.two-links a {
   padding: 1rem;
-  background-color: grey;
+  background-color: #F25B3C;
   border-radius: 0.625rem;
   color: white;
   text-align: center;
+}
+
+.external-links.two-links a:hover {
+  background-color: #f8f1ec;
+  color: #F25B3C;
 }
 
 .project-accordion {
@@ -1071,7 +1081,7 @@ footer .social-links a:hover {
   outline: none;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  border-bottom: 1px solid #F3AEB9;
+  border-bottom: 1px solid #F25B3C;
   /* To align and space out title and + button */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1086,7 +1096,8 @@ footer .social-links a:hover {
 
 /* Adds a background color to the button if it is clicked on and when hovering over it */
 .active, .accordion:hover {
-  background-color: #F3AEB9;
+  background-color: #f8f1ec;
+  color: #F25B3C;
 }
 
 /* Styles the accordion panel (hidden by default) */

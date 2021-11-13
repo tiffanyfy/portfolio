@@ -112,10 +112,15 @@
 
     a {
         padding: 1rem;
-        background-color: grey;
+        background-color: $color3;
         border-radius: 0.625rem;
         color: white;
         text-align: center;
+
+        &:hover {
+            background-color: $color4;
+            color: $color3;
+        }
     }
 
     .back-to-projects {
@@ -132,9 +137,14 @@
 
     a {
         padding: 1rem;
-        background-color: grey;
+        background-color: $color3;
         border-radius: 0.625rem;
         color: white;
         text-align: center;
+
+        &:hover {
+            background-color: $color4;
+            color: $color3;
+        }
     }
 }

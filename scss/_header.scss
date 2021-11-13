@@ -28,9 +28,10 @@ nav {
     font-size: 1rem;
     -webkit-tap-highlight-color: transparent; /* removes the default blue highlight when links clicked on mobile device */
     transition: background-color 0.1s ease-in-out;
+    color: $color3;
 
     &:hover {
-        background-color: lightgray;
+        background-color: $color4;
     }
 }
 
