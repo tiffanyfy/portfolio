@@ -1211,6 +1211,19 @@ footer .social-links a:hover {
   background-color: #696E61;
 }
 
+/* Portfolio color palette */
+.portfolio-1 {
+  background-color: #F3AEB9;
+}
+
+.portfolio-2 {
+  background: #F25B3C;
+}
+
+.portfolio-3 {
+  background-color: #F8F1EC;
+}
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
   border: 0;
