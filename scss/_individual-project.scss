@@ -103,25 +103,13 @@
 
 /* External links and back to projects */
 .external-links.three-links {
+    @include external-links;
     max-width: 18.75rem;
-    margin: 3rem auto 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 0.25rem;
 
-    a {
-        padding: 1rem;
-        background-color: $color3;
-        border-radius: 0.625rem;
-        color: white;
-        text-align: center;
-
-        &:hover {
-            background-color: $color4;
-            color: $color3;
-        }
-    }
+    @include external-links-a;
 
     .back-to-projects {
         grid-row: 2/2;
@@ -130,21 +118,9 @@
 }
 
 .external-links.two-links {
-    margin: 3rem auto 2rem;
+    @include external-links;
     display: flex;
     justify-content: center;
-    gap: 0.25rem;
 
-    a {
-        padding: 1rem;
-        background-color: $color3;
-        border-radius: 0.625rem;
-        color: white;
-        text-align: center;
-
-        &:hover {
-            background-color: $color4;
-            color: $color3;
-        }
-    }
+    @include external-links-a;
 }
