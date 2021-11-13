@@ -1,8 +1,9 @@
 footer {
+    padding: 1rem 1.5rem 4.5rem; /* last value matches height of fixed header in mobile mode */
+    margin: 0 auto;
     background-color: $color5;
     color: white;
-    padding: 1rem 1.5rem 3.4375rem; /* last value matches height of fixed header in mobile mode */
-    margin: 0 auto;
+    text-align: center;
 
     .social-links {
         margin: 1rem 0;
@@ -20,7 +21,6 @@ footer {
 
 @media (min-width: map-get($breakpoint, tablet)) {
     footer {
-        padding: 2rem 1.5rem;
-        text-align: center;
+        padding: 4rem 1.5rem;
     }
 }
