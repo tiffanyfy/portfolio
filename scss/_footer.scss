@@ -1,7 +1,7 @@
 footer {
     padding: 1rem 1.5rem 4.5rem; /* last value matches height of fixed header in mobile mode */
     margin: 0 auto;
-    background-color: $color5;
+    background-color: $color2;
     color: white;
     text-align: center;
 
@@ -10,10 +10,10 @@ footer {
 
         a {
             margin-right: 0.5rem;
-            fill: $color3;
+            fill: white;
 
             &:hover {
-                fill: $color4;
+                fill: $color3;
             }
         }   
     }

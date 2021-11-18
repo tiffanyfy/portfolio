@@ -449,11 +449,11 @@ nav {
   /* removes the default blue highlight when links clicked on mobile device */
   -webkit-transition: background-color 0.1s ease-in-out;
   transition: background-color 0.1s ease-in-out;
-  color: #F25B3C;
+  color: black;
 }
 
 .nav__link:hover {
-  background-color: #f8f1ec;
+  color: #F25B3C;
 }
 
 @media (min-width: 48rem) {
@@ -473,7 +473,7 @@ footer {
   padding: 1rem 1.5rem 4.5rem;
   /* last value matches height of fixed header in mobile mode */
   margin: 0 auto;
-  background-color: #eba1ad;
+  background-color: #F3AEB9;
   color: white;
   text-align: center;
 }
@@ -484,11 +484,11 @@ footer .social-links {
 
 footer .social-links a {
   margin-right: 0.5rem;
-  fill: #F25B3C;
+  fill: white;
 }
 
 footer .social-links a:hover {
-  fill: #f8f1ec;
+  fill: #F25B3C;
 }
 
 @media (min-width: 48rem) {
@@ -530,7 +530,7 @@ footer .social-links a:hover {
 .project-card a {
   padding: 0.875rem 1rem;
   display: block;
-  background-color: #F25B3C;
+  background-color: #F3AEB9;
   border-radius: 0.625rem;
   color: white;
   text-align: center;
@@ -539,7 +539,6 @@ footer .social-links a:hover {
 }
 
 .project-card a:hover {
-  background-color: #f8f1ec;
   color: #F25B3C;
 }
 
@@ -1015,14 +1014,13 @@ footer .social-links a:hover {
 
 .external-links.three-links a {
   padding: 1rem;
-  background-color: #F25B3C;
+  background-color: #F3AEB9;
   border-radius: 0.625rem;
   color: white;
   text-align: center;
 }
 
 .external-links.three-links a:hover {
-  background-color: #f8f1ec;
   color: #F25B3C;
 }
 
@@ -1047,14 +1045,13 @@ footer .social-links a:hover {
 
 .external-links.two-links a {
   padding: 1rem;
-  background-color: #F25B3C;
+  background-color: #F3AEB9;
   border-radius: 0.625rem;
   color: white;
   text-align: center;
 }
 
 .external-links.two-links a:hover {
-  background-color: #f8f1ec;
   color: #F25B3C;
 }
 
@@ -1081,7 +1078,7 @@ footer .social-links a:hover {
   outline: none;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  border-bottom: 1px solid #F25B3C;
+  border-bottom: 1px solid #F3AEB9;
   /* To align and space out title and + button */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1096,7 +1093,6 @@ footer .social-links a:hover {
 
 /* Adds a background color to the button if it is clicked on and when hovering over it */
 .active, .accordion:hover {
-  background-color: #f8f1ec;
   color: #F25B3C;
 }
 

@@ -1,13 +1,12 @@
 @mixin more-button {
     padding: 0.875rem 1rem;
     display: block;
-    background-color: $color3;
+    background-color: $color2;
     border-radius: 0.625rem;
     color: white;
     text-align: center;
 
     &:hover {
-        background-color: $color4;
         color: $color3;
     }
 }
@@ -27,13 +26,12 @@
 @mixin external-links-a {
     a {
         padding: 1rem;
-        background-color: $color3;
+        background-color: $color2;
         border-radius: 0.625rem;
         color: white;
         text-align: center;
 
         &:hover {
-            background-color: $color4;
             color: $color3;
         }
     }

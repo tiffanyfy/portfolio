@@ -20,7 +20,7 @@
     border: none;
     outline: none;
     transition: 0.4s;
-    border-bottom: 1px solid $color3;
+    border-bottom: 1px solid $color2;
     
     /* To align and space out title and + button */
     display: flex;
@@ -31,7 +31,6 @@
 /* Adds a background color to the button if it is clicked on and when hovering over it */
 .active, .accordion:hover {
     // background-color: #ccc;
-    background-color: $color4;
     color: $color3;
 }
   
