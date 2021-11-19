@@ -12,7 +12,7 @@
 }
 
 .shape-blob {
-	background: $color3;
+	background: $color1;
 	height: 12.5rem;
 	width: 12.5rem;
 	border-radius: 30% 50% 20% 40%;
@@ -25,6 +25,7 @@
 	top: 50%;
 }
 .shape-blob.one {
+	background: $color1;
 	height: 31.25rem;
 	width: 31.25rem;
 	left: -12.5rem;
@@ -34,10 +35,21 @@
 }
 
 .shape-blob.two {
+	background: $color3;
 	height: 21.875rem;
 	width: 21.875rem;
 	left: 31.25rem;
 	top: -9.375rem;
+	transform: rotate(-180deg);
+	animation: transform 30s ease-in-out infinite both alternate, movement_two 60s ease-in-out infinite both;
+}
+
+.shape-blob.three {
+	background: $color3;
+	height: 18.875rem;
+	width: 21.875rem;
+	left: 1.25rem;
+	top: 41.375rem;
 	transform: rotate(-180deg);
 	animation: transform 30s ease-in-out infinite both alternate, movement_two 60s ease-in-out infinite both;
 }
