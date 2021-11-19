@@ -1010,7 +1010,7 @@ footer .social-links a:hover {
 /* Project mockup cards (used inside accordions) */
 .project-mockup {
   padding: 1rem 0;
-  border-radius: 1.5rem;
+  border-radius: 40px;
 }
 
 /* External links and back to projects */
